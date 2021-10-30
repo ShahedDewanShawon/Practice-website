@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: cadetblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+}
+.hero p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: cornsilk;
+    margin: 30px 0px;
+    width: 55%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.hero a{
+    background-color: cornsilk;
+    padding: 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: cadetblue;
+    text-decoration: none;
+}
+.bike{
+    background-color: blue;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.bike h1{
+    font-family: cursive;
+    font-size: 70px;
+    color: white;
+}
+.bike p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 55%;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}
+.bike a{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+
+color:blue;
+}
+.bike img{
+    height: 300px;
+    width: 400px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.serv{
+    display: flex;
+    margin:30px 90px;
+    background-color: darkblue;
+}
+
+
+.serv img{
+height: 400px;
+width: 550px;
+}
+
+
+.serv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pera{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 29px;
+}
+
+.gallery{
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery img{
+    height: 300px;
+    width: 380px;
+    margin-right: 30px;
+}
+
+.gallery-2{
+    margin-top: 30px;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: tomato;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.heading1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: tomato;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.galery3{
+    flex-direction: column;
+}
+.gallery4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+}
+.gallery4 img{
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+}
+.gallery5{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+}
+.gallery5 img{
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+}
